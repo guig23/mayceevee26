@@ -43,29 +43,7 @@
 
     <!-- header
     ================================================== -->
-    <header class="s-header">
-        <div class="row s-header__nav-wrap">
-            <nav class="s-header__nav">
-                <ul>
-                    <li class="current"><a class="smoothscroll" href="#hero">Início</a></li>
-                    <li><a class="smoothscroll" href="#about">Sobre</a></li>
-                    <li><a class="smoothscroll" href="#resume">Currículo</a></li>
-                    <li><a class="smoothscroll" href="#portfolio">Projetos</a></li>
-                    <li><a class="smoothscroll" href="#testimonials">Artigos</a></li>
-                    <li><a class="smoothscroll" href="#contact">Contato</a></li>
-                </ul>
-            </nav>
-        </div> <!-- end row -->
-        
-        <a class="s-header__menu-toggle" href="#0" title="Menu">
-            <span class="s-header__menu-icon"></span>
-        </a>
-    </header> <!-- end s-header -->
-
-
-    <!-- hero
-    ================================================== -->
-    <section id="hero" class="s-hero target-section">
+<section id="hero" class="s-hero target-section">
 
         <div class="s-hero__bg rellax" data-rellax-speed="-7"></div>
 
@@ -74,24 +52,50 @@
 
                 <div class="s-hero__content-about">
 
-<div class="s-hero__content-about">
+                    <h1>Olá, sou o Guilherme.</h1>
 
-<h1>Olá, sou o Guilherme.</h1>
+                    <h3>
+                        <span>Matemático</span> & <span>Cientista de Dados</span>.
+                    </h3>
 
-    <h3>
-        <span>Matemático</span> & <span>Cientista de Dados</span>.
-    </h3>
+                    <p style="color: #fff;">
+                        Unindo o rigor analítico da matemática ao domínio de <strong style="color: #fff;">Python</strong> e <strong style="color: #fff;">SQL</strong>. 
+                        Focado em transformar dados complexos em inteligência de negócio através de <strong style="color: #fff;">análise exploratória</strong> e modelagem estatística para a resolução de problemas reais. 
+                        Explore meus projetos abaixo.
+                    </p>
 
-    <p style="color: #fff;">
-        Unindo o rigor analítico da matemática ao domínio de <strong style="color: #fff;">Python</strong> e <strong style="color: #fff;">SQL</strong>. 
-        Focado em transformar dados complexos em inteligência de negócio através de <strong style="color: #fff;">análise exploratória</strong> e modelagem estatística para a resolução de problemas reais. 
-        Explore meus projetos abaixo.
-    </p>
+                    <div class="s-hero__content-social">
+                        <a href="[https://www.linkedin.com/in/guilherme-goncalves-guimaraes-data-scientist](https://www.linkedin.com/in/guilherme-goncalves-guimaraes-data-scientist)" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                        
+                        <a href="[https://github.com/guig23](https://github.com/guig23)" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github" aria-hidden="true"></i>
+                        </a>
+                        
+                        <a href="[https://wa.me/5543991785400](https://wa.me/5543991785400)" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                        </a>
+                        
+                        <a href="[https://guilhermeguimaraesprojetocurrycompany2026.streamlit.app](https://guilhermeguimaraesprojetocurrycompany2026.streamlit.app)" target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-chart-bar" aria-hidden="true"></i>
+                        </a>
+                    </div>
 
-    <div class="s-hero__content-social">
-        <a href="https://www.linkedin.com/in/guilherme-goncalves-guimaraes-data-scientist" target="_blank" rel="noopener noreferrer">
-            <i class="fab fa-linkedin" aria-hidden="true"></i>
-        </a>
+                </div> </div>
+        </div> <div class="s-hero__scroll">
+            <a href="#about" class="s-hero__scroll-link smoothscroll">
+                <span class="scroll-arrow">
+                    <svg xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M18.707 12.707L17.293 11.293 13 15.586 13 6 11 6 11 15.586 6.707 11.293 5.293 12.707 12 19.414z"></path></svg>
+                </span>
+                <span class="scroll-text">Scroll Down</span>
+            </a>
+        </div> </section> ```
+
+### O que foi corrigido aqui:
+* **Fim das tags fantasmas:** Removi a `</div>` extra e as linhas com ` ``` ` que quebraram a leitura do HTML.
+* **Fim da duplicação:** Apaguei o segundo bloco repetido de links que estava solto logo abaixo.
+* **Sincronização de cores:** Agora que a `div` de classe `s-hero__content-social` fecha exatamente onde deveria, o CSS do template vai estilizar os quatro ícones com a cor padrão do seu tema.
         
         <a href="https://github.com/guig23" target="_blank" rel="noopener noreferrer">
             <i class="fab fa-github" aria-hidden="true"></i>
